@@ -1,0 +1,130 @@
+main {
+    width: 40%;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color:#1A1A32;
+    font-family: sans-serif;
+
+
+
+}
+
+.horizontal {
+    height: 0.5px;
+    background-color: white;
+
+    margin-right: 96px;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.input {
+    background-color: #090B24;
+    border-width: 0;
+    width: 80%;
+    color: white;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.AboutUs {
+    width: 81%;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+label {
+    color: white;
+    display: block;
+   
+}
+
+#bio {
+    height: 30px;
+}
+
+a {
+    color: white;
+}
+
+button {
+    border-color: white;
+    background-color: rgb(95, 90, 90);
+    color: #ffffff;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+form {
+    margin-left: 80px;
+    padding-top: 20px;
+    line-height: 1.8;
+
+}
+
+p {
+    color: white;
+}
+
+select {
+    margin-top: 5px;
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        background-color: rgb(33, 33, 62);
+        font-family: sans-serif;
+        margin: 0px;
+
+    }
+
+    form {
+        margin-left: 70px;
+    }
+
+    .horizontal {
+        margin-right: 125px;
+    }
+
+    button {
+        margin-left: 110px;
+    }
+
+}
+@media (max-width: 430px) {
+    main {
+        width: 100%;
+        background-color: rgb(33, 33, 62);
+        font-family: sans-serif;
+        /* margin: 0px; */
+
+    }
+
+    form {
+        margin-left: 50px;
+    }
+
+    .horizontal {
+        margin-right: 58px;
+    }
+
+    button {
+        margin-left: 50px;
+    }
+}

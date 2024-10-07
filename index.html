@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration-form</title>
+    
+    <link rel="StyleSheet" href='styling.css'>
+
+</head>
+
+<body>
+    <main>
+        
+            <h1> Registration-form</h1>
+            <p class="heading">please fill out this form with the required information</p>
+            <form>
+                <label for="fname">Enter your First name:</label>
+                <input class="input" type="text" id="fname" name="firstName" required>
+                <label for="lname">Enter your last name:</label>
+                <input class="input" type="text" id="lname" name="lastName" required>
+                <label for="Email">Enter your Email:</label>
+                <input class="input" type="email" id="Email" name="Email" required>
+                <label for="password">Enter your password:</label>
+                <input class="input" type="password" id="password" name="password" required>
+                
+                <hr class="horizontal">
+                <p>account type (required)</p>
+                <input  type="radio" id="personal" name="account" value="personal" required>
+                <label style="display: inline;"for="personal">personal</label><br>
+                <input  type="radio" id="private" name="account" value="private" required>
+                <label style="display: inline;" for="private">business</label>
+                <br>
+                <hr class="horizontal">
+                <label for="profile">upload a profile picture:</label>
+                <input class="input"  type="file" id="profile" name="myProfile" accept="image/*" required>
+                <label for="age">input your age (years)</label>
+                <input class="input" type="number" id="age" name="myAge">
+                <label for="aboutus">how did you hear about us</label>
+                <select class="AboutUs" id="aboutus" required>
+                    <option value="" disabled selected> select one</option>
+                    <option value="educational institute">educational institute</option>
+                    <option value="social media">social media</option>
+                    <option value="friends $ family">friends $ family</option>
+                </select>
+                <label for="bio">provide a bio:</label>
+                <input style="display: block;" class="input" type="text" id="bio" name="Mybio" placeholder="i am a passionate programmer">
+                
+                <input  type="checkbox" id="terms" name="terms" required>
+                <label  style="display: inline;"  name="terms"> i accept the <a href="#">terms and conditions</a></label>
+                <button>submit</button>
+                </form>
+        
+    </main>
+
+</body>
+
+</html>
