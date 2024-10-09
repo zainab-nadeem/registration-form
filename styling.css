@@ -1,9 +1,14 @@
+*{ margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
 main {
     width: 40%;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 0 auto;
+    
     background-color:#1A1A32;
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 
 
@@ -13,14 +18,14 @@ main {
     height: 0.5px;
     background-color: white;
 
-    margin-right: 96px;
+    width: 100%;
 }
 
 h1 {
     font-weight: bolder;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 .heading {
@@ -31,23 +36,26 @@ h1 {
 .input {
     background-color: #090B24;
     border-width: 0;
-    width: 80%;
+    width: 100%;
     color: white;
     margin-top: 5px;
-    height: 20px;
+    height: 25px;
 }
 
 .AboutUs {
-    width: 81%;
     background-color: white;
     border-color: white;
     color: black;
+    width: 100%;
 }
 
 label {
     color: white;
     display: block;
    
+}
+.inline-element{
+    display: inline;
 }
 
 #bio {
@@ -58,26 +66,31 @@ a {
     color: white;
 }
 
+
+
+form {
+    margin: 0 auto;
+    
+    width: 70%;
+    padding-top: 20px;
+    line-height: 1.8;
+    padding-bottom: 10px;
+
+}
 button {
     border-color: white;
     background-color: rgb(95, 90, 90);
     color: #ffffff;
     width: 50%;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     height: 30px;
-    margin-bottom: 4px;
-}
-
-form {
-    margin-left: 80px;
-    padding-top: 20px;
-    line-height: 1.8;
-
+    
 }
 
 p {
     color: white;
+    margin-top: 10px;
 }
 
 select {
@@ -94,13 +107,6 @@ select {
 
     }
 
-    form {
-        margin-left: 70px;
-    }
-
-    .horizontal {
-        margin-right: 125px;
-    }
 
     button {
         margin-left: 110px;
@@ -116,13 +122,9 @@ select {
 
     }
 
-    form {
-        margin-left: 50px;
-    }
+    
 
-    .horizontal {
-        margin-right: 58px;
-    }
+   
 
     button {
         margin-left: 50px;
